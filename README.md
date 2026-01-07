@@ -1,1 +1,217 @@
-# MaryThereseGuste.CV
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Mary Therese M. Guste</title>
+    <style>
+        /* --- CSS STYLES --- */
+        :root {
+            --primary-color: #2c3e50; /* Dark Blue-Gray for headers */
+            --accent-color: #555;     /* Dark Gray for subheaders */
+            --text-color: #333;       /* Standard black text */
+            --bg-color: #f4f4f4;      /* Light gray background */
+            --container-bg: #ffffff;  /* White paper background */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Container mimics a sheet of paper */
+        .resume-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--container-bg);
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-top: 5px solid var(--primary-color);
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+        .contact-info span {
+            margin: 0 8px;
+        }
+
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin: 0;
+            color: #000;
+        }
+
+        .date-location {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* Lists */
+        ul {
+            list-style-type: square;
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Grid for Skills to save space */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1>Mary Therese M. Guste, CHRA</h1>
+            <div class="subtitle">Psychology Student | Certified Human Resource Associate</div>
+            
+            <div class="contact-info">
+                <span>marythereseguste@gmail.com</span> |
+                <span>0952 485 7374</span> <br>
+                <a href="https://www.linkedin.com/in/mary-therese-guste-633b0b3a2" target="_blank">LinkedIn Profile</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Profile</h2>
+            <p>
+                A motivated Bachelor of Science in Psychology undergraduate and Certified Human Resource Associate (CHRA) with developing experiences in research assistance and clinical support. Demonstrates strong organizational and communication skills, with the ability to handle confidential records and sensitive information in both academic and practical settings. With exposure to basic healthcare assistance and foundational HR principles, seeking internship or on-the-job training opportunities to further develop professional, research, and people-oriented skills.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education & Certification</h2>
+            
+            <div class="entry">
+                <h3>Certified Human Resource Associate (CHRA)</h3>
+                <span class="date-location">Human Resource Educators' Association of the Philippines | October 2025</span>
+            </div>
+            <br>
+            <div class="entry">
+                <h3>Bachelor of Science in Psychology (Clinical Track)</h3>
+                <span class="date-location">De La Salle Lipa | 2022 - Present</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            
+            <div class="entry">
+                <h3>Work Immersion Trainee</h3>
+                <span class="date-location">Canossa Academy | July 2019 - August 2019</span>
+                <ul>
+                    <li>Assisted nurses and doctors in the school clinic by supporting basic healthcare tasks such as taking vital signs, preparing medical supplies, and attending to minor first-aid cases.</li>
+                    <li>Maintained cleanliness and orderliness of the clinic to ensure a safe and sanitary environment.</li>
+                    <li>Organized and filed student medical records and health forms, ensuring confidentiality and proper documentation.</li>
+                    <li>Assisted in monitoring students during routine health check-ups.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <ul>
+                    <li>Strong verbal and written communication</li>
+                    <li>Records management & confidentiality</li>
+                    <li>Interpersonal & relationship-building</li>
+                </ul>
+                <ul>
+                    <li>Ability to work under pressure</li>
+                    <li>Adaptability & eagerness to learn</li>
+                    <li>Organizational skills</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Seminars & Trainings</h2>
+            <ul>
+                <li><strong>Career 103:</strong> Getting Ready for the Leap: Managing Career Choices (2025)</li>
+                <li><strong>SEEDS:</strong> Building Strength: Fostering Perseverance, Optimism, and Resilience for Lifelong Success (2025)</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
